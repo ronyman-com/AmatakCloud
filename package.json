@@ -10,7 +10,8 @@
     "test": "jest",
     "start": "node src/app.js",
     "frontend": "cd src/frontend && npm start",
-    "amatak": "concurrently \"npm run start\" \"npm run frontend\""
+    "amatak": "concurrently \"npm run start\" \"npm run frontend\"",
+    "proxy": "http://localhost:3000"
   },
   "repository": {
     "type": "git",
