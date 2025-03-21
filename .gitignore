@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Database files
+/database/*.db
+
+# Logs
+/logs/*
+
+# Node modules
+/node_modules/
+
+# Cypress videos and screenshots
+/cypress/videos/
+/cypress/screenshots/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
