@@ -24,6 +24,12 @@ const logger = {
         console.error(errorMessage);
         fs.appendFileSync(logFile, errorMessage);
     },
+    info: (message) => {
+        const timestamp = new Date().toISOString();
+        const infoMessage = `[${timestamp}] INFO: ${message}\n`;
+        console.info(infoMessage);
+        fs.appendFileSync(logFile, infoMessage);
+    },
 };
 
 module.exports = logger;
